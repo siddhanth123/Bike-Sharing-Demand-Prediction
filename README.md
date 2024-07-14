@@ -6,6 +6,35 @@ This project aims to predict bike-sharing demand using machine learning models. 
 
 ## Directory Structure
 
+```plaintext
+BikeSharingDemand/
+│
+├── data/
+│   ├── day.csv # Daily data
+│   ├── hour.csv # Hourly data
+│
+├── model/
+│   ├── train.py # Model training script
+│   ├── tune.py # Hyperparameter tuning script
+│
+├── eda/
+│   ├── exploratory_analysis.py # Script for exploratory data analysis
+|   ├── visulaization.py # Script for visualizations
+│
+├── tests/
+│   ├── test_data_loader.py # Unit tests for data loader
+│   ├── test_preprocess.py # Unit tests for preprocess module
+│   ├── test_model.py # Unit tests for model training
+│   ├── test_tune.py # Unit tests for hyperparameter tuning
+│
+├── utils/
+│   ├── preprocess.py # Data preprocessing utilities
+│   ├── evaluate.py # Evaluation script for trained and tuned models.
+│
+├── requirements.txt # Python dependencies
+├── README.md # Project documentation
+```
+
 
 ## Getting Started
 
@@ -88,3 +117,17 @@ python -m unittest discover -s tests
 ### `visualization.py`
 
 Generates various visualizations for data analysis and model performance evaluation.
+
+
+## License
+
+This project is licensed under the MIT License.
+
+## Acknowledgements
+
+- The dataset is provided by the UCI Machine Learning Repository.
+
+  
+This README file provides a comprehensive guide to understanding and running the Bike Sharing Demand Prediction project, including the directory structure, steps to get started, and descriptions of each script and its purpose.
+
+

@@ -60,7 +60,7 @@ Place the __day.csv__ and __hour.csv__ files in the __data/__ directory.
   Train the models using the __train.py__ script in the __model__ directory. This script trains multiple models and evaluates their     performance using cross-validation.
 
   ```sh
-  python model/train.py
+  python main.py
   ```
 
 - #### Hyperparameter Tuning
@@ -68,7 +68,7 @@ Place the __day.csv__ and __hour.csv__ files in the __data/__ directory.
   Tune the hyperparameters of the models using the __tune.py__ script in the __model__ directory.
 
   ```sh
-  python model/tune.py
+  python main.py
   ```
 
 - #### Visualization

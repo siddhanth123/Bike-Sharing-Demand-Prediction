@@ -117,7 +117,6 @@ python -m unittest discover -s tests
 
 - `preprocess.py`: Contains functions for data preprocessing.
 - `evaluate.py`: Contains functions for evaluating the trained models.
-- `test`
 
 
 ## License

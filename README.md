@@ -12,6 +12,7 @@ BikeSharingDemand/
 ├── data/
 │   ├── day.csv # Daily data
 │   ├── hour.csv # Hourly data
+│   ├── data.loader.py # Script to load the data files
 │
 ├── model/
 │   ├── train.py # Model training script

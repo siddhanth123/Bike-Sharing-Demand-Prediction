@@ -93,6 +93,7 @@ python -m unittest discover -s tests
 ### `data/`
 
 - `day.csv` and `hour.csv`: The dataset files.
+- `data_loader.py`: This is a python script to load the datafiles 
 
 ### `model/`
 
@@ -100,9 +101,10 @@ python -m unittest discover -s tests
 - `tune.py`: Contains functions for hyperparameter tuning of the models.
 - `results.py`: Contains the final results of the trained and tuned models.
 
-### `notebooks/`
+### `eda/`
 
-- `exploratory_analysis.ipynb`: Jupyter notebook for exploratory data analysis.
+- `exploratory_analysis.py`: Jupyter notebook for exploratory data analysis.
+- `visualization.py`: Generates various visualizations for data analysis.
 
 ### `tests/`
 
@@ -114,10 +116,8 @@ python -m unittest discover -s tests
 ### `utils/`
 
 - `preprocess.py`: Contains functions for data preprocessing.
-
-### `visualization.py`
-
-Generates various visualizations for data analysis and model performance evaluation.
+- `evaluate.py`: Contains functions for evaluating the trained models.
+- `test`
 
 
 ## License

@@ -32,6 +32,7 @@ BikeSharingDemand/
 │   ├── preprocess.py # Data preprocessing utilities
 │   ├── evaluate.py # Evaluation script for trained and tuned models.
 │
+├── Bike_Sharing_Task.ipynb # Jupyter notebook that contains detailed implementation
 ├── requirements.txt # Python dependencies
 ├── README.md # Project documentation
 ```
